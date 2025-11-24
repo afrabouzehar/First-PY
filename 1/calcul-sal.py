@@ -11,8 +11,8 @@ if nbr_heure > 35:
     print("Nombre d'heures supplémentaires : ", nombre_heure_sup)
     print("Montant heures supplémentaires : ", montant_heure_sup)
 else:
-    Montant_total = montant_heure_normales
-    taux_horaire = nbr_heure * taux_horaire
+    Montant_total = montant_heure_normales  
+    taux_horaire = nbr_heure * taux_horaire  
     print("Taux horaire : ", taux_horaire)
     print("Montant des heures normales : ", montant_heure_normales)
     print("Nombre d'heures supplémentaires : 0")
