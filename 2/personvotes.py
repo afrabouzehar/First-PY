@@ -6,7 +6,8 @@ for nom in Liste_Noms:
     else:
         Nbr_Votes[nom] = 1
 print("Resultas des votes :",Nbr_Votes)
-print("Candidat avec le plus de votes :", max(Nbr_Votes, key=Nbr_Votes.get))
+max_votes = max(Nbr_Votes)
+print("Candidat avec le plus de votes :", max_votes,"avec", Nbr_Votes[max_votes], "votes")
 
 
 
