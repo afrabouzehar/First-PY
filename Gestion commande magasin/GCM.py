@@ -1,4 +1,4 @@
-commandes = {"cmd1":{"ID":"Ali","produit":[("Huile",23,27),("miel",40,10)]},"cmd2":{"ID":"Sami","produit":[("Souris",10,20),("Pomme",5,30)]},"cmd3":{"ID":"Anne","produit":[("Tomate",10,20),("Pomme",5,30)]},"cmd4":{"ID":"Sami","produit":[("Cahier",6,10),("Stylo",1,2)]}}
+commandes = {"cmd1":{"ID":"Ali","produit":[("Huile",23,27),("miel",40,10)]},"cmd2":{"ID":"Sami","produit":[("Souris",16,20),("Pomme",3,30)]},"cmd3":{"ID":"Anne","produit":[("Tomate",10,20),("Pomme",5,30)]},"cmd4":{"ID":"Sami","produit":[("Cahier",6,10),("Stylo",2,2)]}}
 for i,j in commandes.items():
     print("==== commandes",i,"====")
     print("client",{j["ID"]})
@@ -35,5 +35,15 @@ for i in commandes.values():
         depense_client ["client"] = depense_client ["client"]+T
     else:
         depense_client ["client"] = T
-       
-
+    print(f"Le total depense par {client} est : ",depense_client)     
+quantite_client = {}
+for i in commandes.values():
+    client = i ["ID"]
+    produit = i ["produit"]
+    for nom,p,Qte in produit:
+        if nom in quantite_client:
+            quantite_client [nom] = quantite_client [nom]+Qte
+        else:
+            quantite_client[nom]=Qte
+print(max(quantite_client))
+   
