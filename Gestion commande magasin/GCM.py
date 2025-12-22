@@ -40,10 +40,20 @@ quantite_client = {}
 for i in commandes.values():
     client = i ["ID"]
     produit = i ["produit"]
-    for nom,p,Qte in produit:
+    for nom,P,Qte in produit:
         if nom in quantite_client:
             quantite_client [nom] = quantite_client [nom]+Qte
         else:
             quantite_client[nom]=Qte
 print(max(quantite_client,key=quantite_client.get))
-   
+for i,j in commandes.items():
+    T=0
+    for nom,p,Qte in j["produit"]:
+         T=T+P*Qte
+    print(f"Le total de cmd avant la remise est : {T} ")
+    if T>2000:
+        B=T*0.9
+        print (f"Le total post remise cmd est {B}")
+    else:
+        print(f"{T}")    
+
