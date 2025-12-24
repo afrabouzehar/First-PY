@@ -5,4 +5,4 @@ def addition(*args):
     print("La somme = ",Somme)
 addition(2,43)   
 addition(2,4,5)
-2.
+
