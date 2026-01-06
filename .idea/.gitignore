@@ -8,3 +8,17 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.log
+*.sqlite3
+.DS_Store
