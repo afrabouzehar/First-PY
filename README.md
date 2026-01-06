@@ -22,22 +22,22 @@ python-core-concepts/
 ├── control_structures/
 │   ├── guessing_game.py
 │   ├── fizzbuzz_variation.py
-│   └── enested_loops_pattern.py
+│   ├── nested_loops_pattern.py
 │
 ├── data_structures/
 │   ├── word_frequency.py
 │   ├── invert_dictionary.py
-│   └── clean_list.py
+│   ├── clean_list.py
 │
 ├── functions_exceptions/
 │   ├── safe_calculator.py
 │   ├── stats_function.py
-│   └── retry_input.py
+│   ├── retry_input.py
 │
 ├── file_manipulation/
 │   ├── merge_files.py
 │   ├── clean_file.py
-│   └── analyze_file.py
+│   ├── analyze_file.py
 │
 └── README.md
 
