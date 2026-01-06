@@ -1,7 +1,7 @@
 import random
 secret = random.randint(1, 50)
 attempts = 0
-while attempts <=7:
+while attempts <7:
     number = input("pick up a number between 1 and 50 (you have 7 attempts): ")
     try:
         number = int(number)
@@ -15,19 +15,16 @@ while attempts <=7:
         print("You win")
         break
     elif number >secret:
-        attempts += 1
         print("Too high")
         continue
     elif number<secret:
-        attempts += 1
         print("Too low")
         continue
-    elif abs(number-secret)>1:
-        attempts += 1
+    elif abs(number - secret) <= 3:
         print("Very close")
         continue
-while attempts >= 7:
-    print("Your attempts are done")
-    print("The secret number is : ", secret)
-    break
+    attempts += 1
+print("Your attempts are done")
+print("The secret number is : ", secret)
+
 
