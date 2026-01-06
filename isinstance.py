@@ -1,4 +1,4 @@
-x = 10
-y = 10.0
-z = "10"
-print(isinstance(x, int), x == y, x == z)
+a= 10
+b= 10.0
+c = "10"
+print(isinstance(a, int), a == b, a == c)
