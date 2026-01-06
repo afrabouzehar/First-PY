@@ -2,7 +2,7 @@
 **This repository contains my personal learning materials, exercises, and notes covering the core concepts of Python programming.**
 It brings together all the fundamental topics I am practicing, including:
 
-### 🔹 Topics Covered
+## 🔹 Topics Covered
 
 - Control structures (if, loops, conditions)
 
@@ -12,11 +12,12 @@ It brings together all the fundamental topics I am practicing, including:
 
 - File manipulation (reading, writing, processing files)
 
-### 🔹 Purpose of this Repository
+## 🔹 Purpose of this Repository
 The goal of this project is to organize my progress, practice real examples, and build a solid understanding of Python fundamentals through structured exercises and notes.
 
-### 🔹Structure
+## 📁 Project Structure
 
+<pre>
 python-core-concepts/
 │
 ├── control_structures/
@@ -40,6 +41,7 @@ python-core-concepts/
 │   ├── analyze_file.py
 │
 └── README.md
+</pre>
 
-### 🔹 Status
+## 🔹 Status
 This repository is actively growing as I continue learning and adding new codes.
