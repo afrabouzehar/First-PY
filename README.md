@@ -1,3 +1,5 @@
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/afrabouzehar/python-core-concepts)
+
 # 📘 python-core-concepts
 **This repository contains my personal learning materials, exercises, and notes covering the core concepts of Python programming.**
 It brings together all the fundamental topics I am practicing, including:
