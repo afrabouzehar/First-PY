@@ -35,6 +35,6 @@ while attempts <7:
 # If the loop ended because attempts ran out (not because of break)
 if attempts == 7 and number != secret:
     print("Your attempts are done.")
-    print("The secret number was:",
+    print("The secret number was:",secret)
 
 
